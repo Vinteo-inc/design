@@ -44,6 +44,10 @@
     outline: none;
 }
 
+ion-icon[name="chevron-down-outline"]{
+    cursor:pointer;
+}
+
 .toggle-switch{
     cursor:pointer;
     position: relative;
