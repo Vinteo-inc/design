@@ -15,12 +15,15 @@
 
 /*---------------------------------------------------MAIN-COLUMNS-----------------------------------------------*/
 
+/*----------------------------VIDEO-BOX----------------------*/
 .video-box{
     background-color: #ecf0f1;
     height:70vh;
     border-radius: 10px;
     margin-right: 20px;
 }
+
+/*----------------------------OPTION-BOX----------------------*/
 
 .option-box{
     font-size: 20px;
@@ -41,6 +44,40 @@
     outline: none;
 }
 
+.toggle-switch{
+    cursor:pointer;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance:none ;
+    background: #c6c6c6;
+    outline: none;
+    transition: 0.5s;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+.toggle-switch:checked{
+    background: #03a9f4;
+}
+
+.toggle-switch:before{
+    content:'';
+    position: absolute;
+    width: 20px;
+    height:20px;
+    border-radius: 20px;
+    top:0;
+    left:0;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    transition: 0.5s;
+}
+
+.toggle-switch:checked:before{
+    left:20px;
+}
+
 /*---------------------------------------------------BUTTONS-----------------------------------------------*/
 
 .buttons ul li{
@@ -53,6 +90,8 @@
     transition: ease-in-out 0.2s;
 }
 
+/*----------------------------BTN-1----------------------*/
+
 .btn-1{
     color:#fff;
     background-color: #ff1616;
@@ -64,6 +103,8 @@
     color:#fff;
     background-color:#d10000 ;
 }
+
+/*----------------------------BTN-2----------------------*/
 
 .btn-2{
     color:#fff;
