@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*---------------------------------------------------LOGO-----------------------------------------------*/
+
+#logo{
+    position: relative;
+    left:0;
+    margin: 20px 10px;
+    height: 60px;
+    width:auto;
+}
+
+/*---------------------------------------------------MAIN-COLUMNS-----------------------------------------------*/
+
+.video-box{
+    background-color: #ecf0f1;
+    height:70vh;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.option-box{
+    font-size: 20px;
+}
+.option-box ul li{
+    margin-bottom: 30px;
+}
+
+.option-box ul li input{
+    color: #95a5a6;
+    margin-top: 10px;
+    padding: 10px 15px;
+    border:1px solid #95a5a6;
+    border-radius: 15px;
+}
+
+.option-box ul li input:focus{
+    outline: none;
+}
+
+/*---------------------------------------------------BUTTONS-----------------------------------------------*/
+
+.buttons ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.buttons ul li button{
+    transition: ease-in-out 0.2s;
+}
+
+.btn-1{
+    color:#fff;
+    background-color: #ff1616;
+    border: none;
+}
+
+.btn-1:hover{
+    border:none;
+    color:#fff;
+    background-color:#d10000 ;
+}
+
+.btn-2{
+    color:#fff;
+    background-color: #00d0f5;
+    border: none;
+}
+
+.btn-2:hover{
+    border:none;
+    color:#fff;
+    background-color:#00c1e4 ;
+}
